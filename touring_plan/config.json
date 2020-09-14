@@ -1,0 +1,28 @@
+{
+    "appName": "touring_plan",
+    "type": "Plugin",
+    "uploadConfig": {
+        "desktop": {
+            "js": [
+                "touring_plan/dist/touring_plan.min.js"
+            ],
+            "css": []
+        },
+        "mobile": {
+            "js": [
+                "touring_plan/dist/touring_plan.min.js"
+            ]
+        },
+        "icon": "touring_plan/icon.png",
+        "config": {
+            "html": "touring_plan/pluginConfig.html",
+            "js": [
+                "touring_plan/dist/config.min.js"
+            ],
+            "css": [
+                "touring_plan/source/css/config.css"
+            ],
+            "required_params": []
+        }
+    }
+}
